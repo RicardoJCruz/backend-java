@@ -20,8 +20,8 @@
 
 [Clase Main](./practicaMona/Playground.java)
 
-El método mejoresAmigos recibe 3 objetos Octocat, en Main se les puede pasar instancias de la clase Octocat e instancias de clases que extiendan de la clase Octocat. Esto es Polimorfismo de subtipo.
-```
+El método `mejoresAmigos()` recibe 3 `objetos Octocat`, en `Main` se les puede pasar instancias de la `clase Octocat` e instancias de clases que extiendan de la `clase Octocat`. Esto es Polimorfismo de subtipo.
+```Java
 public static void main(String[] args) {
     // Subtype polymorphism
     mejoresAmigos(new Octocat(), new Yogitocat(), new Rivertertocat());
@@ -35,7 +35,9 @@ static void mejoresAmigos(Octocat obj1, Octocat obj2, Octocat obj3) {
 
 **Personajes utilizados**
 
-Modelé las clases para 4 personajes octocat que extienden de la clase Octocat y cada una tiene una instancia en Main, los otros dos Octocats que aparecen en Main (Octocat y Terminatocat) son instancias de la clase Octocat.
+Modelé las clases para 4 personajes octocat que extienden de la `clase Octocat` y cada una tiene una instancia en `Main`, los otros dos Octocats que aparecen en `Main` (Octocat y Terminatocat) son instancias de la `clase Octocat`.
+
+Fuente: https://octodex.github.com/
 
 ![octocats](./practicaMona/octocats.jpg)
 
@@ -48,7 +50,19 @@ Modelé las clases para 4 personajes octocat que extienden de la clase Octocat y
 
 ## Práctica Spiderverse (Interfaces)
 
-**¡IMPORTANTE!** Para que el programa reconozca las frunciones del framework inmosh los archivos de código fuente (.java) deben estar directamente en la carpeta "src", afuera de cualquier paquete.
+**¡IMPORTANTE!** Para que el programa reconozca las funciones del framework inmosh los archivos de código fuente (.java) deben estar directamente en la carpeta "src", afuera de cualquier paquete.
+
+**Aviso:** Este programa requiere varias imagenes contenidas en una carpeta llamada "img" que se encuentra en el folder del proyecto, dicha carpeta no la incluyo porque no soy el propietario de las imagenes. Para que el programa funcione correctamente se debe crear una carpeta llamada "img" en la carpeta raíz del proyecto y agregar imagenes con los siguientes nombres:
+```
+gs-dimensional-travel.jpg
+gs-web-shoot.jpg
+karn-portal.jpeg
+karn-reality-manipulation1.jpg
+karn-staff1.jpg
+pp-mark-og-kaine.jpg
+pp-shoot-web.jpg
+pp-spider-sense.jpg
+```
 
 [Clase Spiderman](./practicaMultiverse/Spiderman.java)
 
