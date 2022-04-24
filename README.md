@@ -50,9 +50,14 @@ Fuente: https://octodex.github.com/
 
 ## Práctica Spiderverse (Interfaces)
 
-**¡IMPORTANTE!** Para que el programa reconozca las funciones del framework inmosh los archivos de código fuente (.java) deben estar directamente en la carpeta "src", afuera de cualquier paquete.
+**¡IMPORTANTE!**
 
-**Aviso:** Este programa requiere varias imagenes contenidas en una carpeta llamada "img" que se encuentra en el folder del proyecto, dicha carpeta no la incluyo porque no soy el propietario de las imagenes. Para que el programa funcione correctamente se debe crear una carpeta llamada "img" en la carpeta raíz del proyecto y agregar imagenes con los siguientes nombres:
+Este proyecto hace uso del framework `inmosh`, el cual no está disponible para el publico.
+
+Para que el programa reconozca las funciones del framework inmosh los archivos de código fuente (.java) deben estar directamente en la carpeta "src", afuera de cualquier paquete.
+
+Este programa requiere varias imagenes contenidas en una carpeta llamada "img" que se encuentra en el folder del proyecto, dicha carpeta no esta incluida por temas de derechos de autor. Para que el programa funcione correctamente se debe crear una carpeta llamada "img" en la carpeta raíz del proyecto y agregar imagenes con los siguientes nombres:
+
 ```
 gs-dimensional-travel.jpg
 gs-web-shoot.jpg
@@ -63,6 +68,7 @@ pp-mark-og-kaine.jpg
 pp-shoot-web.jpg
 pp-spider-sense.jpg
 ```
+--------
 
 [Clase Spiderman](./practicaMultiverse/Spiderman.java)
 
@@ -82,3 +88,32 @@ https://marvel.fandom.com/wiki/Marvel_Database
 ![spiderverse-execution](./practicaMultiverse/practica-spiderverse.gif)
 
 En el cuadro de dialogo si se presiona el botón "No" ó el botón "Cancel" el programa termina y se cierra.
+
+## Práctica Comic (Hilos)
+
+**¡IMPORTANTE!**
+
+Este proyecto hace uso del framework `inmosh`, el cual no está disponible para el publico.
+
+Este proyecto hace uso de la libreria `play-mp3-java` que puede ser encontrada aquí: https://github.com/manjurulhoque/play-mp3-java
+
+Para que el programa reconozca las funciones del framework inmosh los archivos de código fuente (.java) deben estar directamente en la carpeta "src", afuera de cualquier paquete.
+
+Este programa requiere el archivo `Eternity.mp3` localizado en la carpeta "src" (renombrada como "practicaComic para subirse a este repositorio"). dicho archivo no está incluido en este repositorio por temas de derechos de autor. Para que el programa funcione correctamente se debe agregar un archivo de audio `mp3` nombrado "Eternity.mp3" en la carpeta src de este proyecto.
+
+Este programa requiere 46 imagenes contenidas en una carpeta llamada "img" que se encuentra en el folder del proyecto, dicha carpeta no esta incluida por temas de derechos de autor. Para que el programa funcione correctamente se debe crear una carpeta llamada "img" en la carpeta raíz del proyecto y agregar imagenes con los siguientes nombres:
+
+```
+page (1).png
+[...]
+page (46).png
+```
+--------
+
+### Diagrama
+![spiderverse-diagram](./practicaComic/practica-comic-diagrama.jpg)
+
+### Ejecución
+![spiderverse-execution](./practicaComic/practica-comic.gif)
+
+Video de la ejecución del programa: https://vimeo.com/702654812
