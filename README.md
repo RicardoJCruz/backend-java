@@ -52,7 +52,7 @@ Fuente: https://octodex.github.com/
 
 **¡IMPORTANTE!**
 
-Este proyecto hace uso del framework `inmosh`, el cual no está disponible para el publico.
+Este proyecto hace uso del framework `inmosh`, el cual no está disponible públicamente.
 
 Para que el programa reconozca las funciones del framework inmosh los archivos de código fuente (.java) deben estar directamente en la carpeta "src", afuera de cualquier paquete.
 
@@ -93,7 +93,7 @@ En el cuadro de dialogo si se presiona el botón "No" ó el botón "Cancel" el p
 
 **¡IMPORTANTE!**
 
-Este proyecto hace uso del framework `inmosh`, el cual no está disponible para el publico.
+Este proyecto hace uso del framework `inmosh`, el cual no está disponible públicamente.
 
 Este proyecto hace uso de la libreria `play-mp3-java` que puede ser encontrada aquí: https://github.com/manjurulhoque/play-mp3-java
 
@@ -116,4 +116,16 @@ page (46).png
 ### Ejecución
 ![spiderverse-execution](./practicaComic/practica-comic.gif)
 
-Video de la ejecución del programa: https://vimeo.com/702654812
+Video completo de la ejecución del programa: https://vimeo.com/702654812
+
+**Créditos:**
+
+FREE COMIC BOOK DAY 2021 SPIDER-MAN/VENOM # 1
+
+Música: Eternity by [Martin Peralta](https://www.youtube.com/shorts/uVCq_eiV3hc)
+
+framework inmosh proporcionado por [FernandaOchoa](https://github.com/FernandaOchoa)
+
+play-mp3-java by [manjurulhoque](https://github.com/manjurulhoque/play-mp3-java)
+
+Java app by [RicardoJCruz](https://github.com/RicardoJCruz/)
