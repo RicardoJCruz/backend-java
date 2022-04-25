@@ -2,6 +2,8 @@
 
 ## Práctica Harry (Modelado)
 
+Modelado de 5 personajes de la saga Harry Potter. Las instancias se definen por un constructor o por setters y getters.
+
 [Clase Personaje](./practicaHarry/Personaje.java)
 
 [Clase Main](./practicaHarry/Hogwarts.java)
@@ -13,6 +15,8 @@
 ![harry-execution](./practicaHarry/practica-harry.png)
 
 ## Práctica Mona (Herencia y polimorfismo)
+
+Modelado de seis personajes Octocat que extienden de una clase Octocat.
 
 [Clase Octocat](./practicaMona/Octocat.java)
 
@@ -49,6 +53,10 @@ Fuente: https://octodex.github.com/
 
 
 ## Práctica Spiderverse (Interfaces)
+
+Modelado de 3 personajes del Spiderverse.
+
+Al ejecutarse el programa despliega una ventana con la información de un personaje y la descripción de uno de sus superpoderes, un cuadro de dialogo permite avanzar al siguiente superpoder hasta llegar al último personaje.
 
 **¡IMPORTANTE!**
 
@@ -89,7 +97,11 @@ https://marvel.fandom.com/wiki/Marvel_Database
 
 En el cuadro de dialogo si se presiona el botón "No" ó el botón "Cancel" el programa termina y se cierra.
 
-## Práctica Comic (Hilos)
+## Práctica Cómic (Hilos)
+
+Visualizador de páginas de un cómic y dialogos por página con música de fondo.
+
+Al ejecutarse se crea una ventana que recorre las páginas de un cómic, al mismo tiempo en otra ventana se escriben los diálogos correspondientes a la página en turno, y una pista musical se reproduce durante toda la duración del cómic.
 
 **¡IMPORTANTE!**
 
@@ -109,6 +121,8 @@ page (1).png
 page (46).png
 ```
 --------
+
+Existe una `clase Menu()` que pretendía ofrecer varias opciones al usuario para controlar la reproducción del comic, pero debido a su innecesaria complejidad para efectos de esta práctica se dejó incompleta. Esta clase, que extiende de `Runnable`, puede ser utilizada en el `Main` del programa.
 
 ### Diagrama
 ![spiderverse-diagram](./practicaComic/practica-comic-diagrama.jpg)
