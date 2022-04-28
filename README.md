@@ -1,5 +1,14 @@
 # BackEnd JAVA
 
+## Práctica Concierto (Multihilos)
+
+README PROXIMAMENTE: DESCRIPCIÓN, DIAGRAMAS, VIDEO, CREDITOS
+APP PROXIMAMENTE: IMPRIMIR INFORMACIÖN DEL CONCIERTO A TEXTO, AÑADIR MUSICA
+
+![spiderverse-execution](./Concert/practica-concierto.gif)
+Video completo de la ejecución del programa: https://vimeo.com/702654812: https://vimeo.com/703989893 Será actualizado
+
+
 ## Práctica Cómic (Hilos)
 
 Visualizador de páginas de un cómic y dialogos por página con música de fondo.
