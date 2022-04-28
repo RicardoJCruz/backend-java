@@ -30,13 +30,21 @@ Video completo de la ejecución del programa: https://vimeo.com/703989893
 
 ### Planeación
 
-Antes que todo realicé bosquejos de cómo se vería la aplicación final, utilicé un template de Canva.
+Antes que todo realicé bosquejos de cómo se vería la aplicación final, utilicé un template de Canva (imagen 1/3).
 
 ![concert-canva](./Concert/concert-canva1.png)
 
 ## Diagramas
 
 ![concert-diagram](./Concert/concierto-diagrama.png)
+
+**¡IMPORTANTE!**
+
+Este proyecto hace uso del framework `inmosh`, el cual no está disponible públicamente.
+
+Este proyecto hace uso de la libreria `play-mp3-java` que puede ser encontrada aquí: https://github.com/manjurulhoque/play-mp3-java
+
+Para que el programa reconozca las funciones del framework inmosh los archivos de código fuente (.java) deben estar directamente en la carpeta "src", afuera de cualquier paquete.
 
 ### Créditos
 
@@ -126,6 +134,10 @@ pp-spider-sense.jpg
 ```
 --------
 
+### Clases
+
+Estas son algunas de las clases que se encuentra en el proyecto
+
 [Clase Spiderman](./practicaMultiverse/Spiderman.java)
 
 [Clase PeterParker](./practicaMultiverse/PeterParker.java) Clase que extiende de la clase Spiderman e implementa a la clase PeterParkerPowers. Existen otras dos clases como esta para otros personajes.
@@ -146,6 +158,10 @@ Modelado de seis personajes Octocat que extienden de una clase Octocat.
 
 ### Ejecución
 ![mona-execution](./practicaMona/practicaMona.png)
+
+### Clases
+
+Estas son algunas de las clases que se encuentra en el proyecto
 
 [Clase Octocat](./practicaMona/Octocat.java)
 
@@ -183,6 +199,8 @@ Modelado de 5 personajes de la saga Harry Potter. Las instancias se definen por 
 
 ### Ejecución
 ![harry-execution](./practicaHarry/practica-harry.png)
+
+### Clases
 
 [Clase Personaje](./practicaHarry/Personaje.java)
 
