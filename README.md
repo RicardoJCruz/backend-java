@@ -1,25 +1,58 @@
 # BackEnd JAVA
 
 > ¡Saludos, muchas gracias por interesarte en mi trabajo!
-
+> 
 > Puse mucha dedicación, pensamiento y tiempo en hacer estas prácticas y tambien en redactar y estructurar este README para que fuera fácil de entender y muy vistoso. Eres libre de revisar mi código y quizas inspirarte en él para hacer tus propios proyectos, o incluso usar la estructura de este README para hacer el tuyo. Solo te pido un pequeñisimo favor :pray:, si algo de aquí te resultó útil hazme una pequeña mención, este es mi usuario de github: https://github.com/RicardoJCruz/.
-
+> 
 > ¡Muchas gracias y mucha suerte!
 
 ## Práctica Concierto (Multihilos)
 
-README PROXIMAMENTE: DESCRIPCIÓN, DIAGRAMAS, VIDEO, CREDITOS
-APP PROXIMAMENTE: IMPRIMIR INFORMACIÖN DEL CONCIERTO A TEXTO, AÑADIR MUSICA
+Esta app genera varias "Vistas", ventanas gráficas con información pertinente a un concierto.
 
-![spiderverse-execution](./Concert/practica-concierto.gif)
-Video completo de la ejecución del programa: https://vimeo.com/702654812: https://vimeo.com/703989893 Será actualizado
+El main de este proyecto se encuentra en la [clase Concert](./Concert/src/Concert.java)
 
+**La primera vista** es la FrontPage que muestra información general del evento implementando los métodos de la [interfaz Render](./Concert/src/Render.java), toda esa información se encuentra en la [clase ConcertInfo](./Concert/src/ConcertInfo.java)
+
+**En segundo lugar** se genera dinámicamente un vista por cada una de las bandas que tocarán en el evento.
+
+En la `clase ConcertInfo` existe un array de tipo `Band[]` que almacena a todas las bandas que tocarán en el concierto, de esta forma es fácil gestionar la información de las bandas como nombre, imagen y canción de muestra; al almacenar las bandas en un array se gana flexibilidad para agregar o quitar bandas, además de tenerlas disponibles en un solo lugar. La [clase Band](./Concert/src/Band.java) se utiliza esencialmente como un nuevo tipo de dato.
+
+Cuando se genera la vista de una banda se reproduce dinámicamente con el [Thread de un Runnable](./Concert/src/Music.java) la pista musical de muestra que corresponde a esa banda y se actualiza el horario en que tocará.
+
+En la **vista final** se genera el LineUp del concierto que combina las dos vistas anteriores, mostrando todas las bandas del evento en la misma ventana.
+
+En esta vista un cuadro de diálogo le pregunta al usuario si quiere guardar en su computadora (Windows) un archivo de texto con la información del contexto, se ayuda de la [clase PrintInfo](./Concert/src/PrintInfo.java), si responde "Sí, por favor" el archivo se guarda en el escritorio y se le avisa al usario del path donde se guardó, si responde negativamente se le agradece por su tiempo y no se guarda ningún archivo.
+
+### Ejecución
+![concert-execution](./Concert/practica-concierto.gif)
+Video completo de la ejecución del programa: https://vimeo.com/703989893
+
+### Planeación
+
+Antes que todo realicé bosquejos de cómo se vería la aplicación final, utilicé un template de Canva.
+
+![concert-canva](./Concert/concert-canva1.png)
+
+## Diagramas
+
+![concert-diagram](./Concert/concierto-diagrama.png)
+
+### Créditos
+
+Imágenes: https://99designs.com.mx/inspiration/logos/classical-music
+
+Música sin copyright: https://www.youtube.com/watch?v=eZEczfSAjVQ&list=PLfP6i5T0-DkIa5XQHB0gXugbXz4Bm2PD1&index=1
+
+Template de Canva (Concert): https://www.canva.com/
 
 ## Práctica Cómic (Hilos)
 
 Visualizador de páginas de un cómic y dialogos por página con música de fondo.
 
 Al ejecutarse se crea una ventana que recorre las páginas de un cómic, al mismo tiempo en otra ventana se escriben los diálogos correspondientes a la página en turno, y una pista musical se reproduce durante toda la duración del cómic.
+
+Los dialogos del comic se leen de un archivo `.txt`.
 
 ### Ejecución
 ![spiderverse-execution](./practicaComic/practica-comic.gif)
@@ -50,7 +83,7 @@ Existe una `clase Menu()` que pretendía ofrecer varias opciones al usuario para
 ### Diagrama
 ![spiderverse-diagram](./practicaComic/practica-comic-diagrama.jpg)
 
-**Créditos:**
+### Créditos:
 
 FREE COMIC BOOK DAY 2021 SPIDER-MAN/VENOM # 1
 
