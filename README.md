@@ -1,11 +1,5 @@
 # BackEnd JAVA
 
-> ¡Saludos, muchas gracias por interesarte en mi trabajo!
-> 
-> Puse mucha dedicación, pensamiento y tiempo en hacer estas prácticas y tambien en redactar y estructurar este README para que fuera fácil de entender y muy vistoso. Eres libre de revisar mi código y quizas inspirarte en él para hacer tus propios proyectos, o incluso usar la estructura de este README para hacer el tuyo. Solo te pido un pequeñisimo favor :pray:, si algo de aquí te resultó útil hazme una pequeña mención, este es mi usuario de github: https://github.com/RicardoJCruz/.
-> 
-> ¡Muchas gracias y mucha suerte!
-
 ## Práctica Concierto (Multihilos)
 
 Esta app genera varias "Vistas", ventanas gráficas con información pertinente a un concierto.
